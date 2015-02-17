@@ -1,0 +1,56 @@
+2015-02-12 16:12:20 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /usuarios/login
+Stack Trace:
+#0 /var/www/usuarios/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-12 16:12:40 Error: Fatal Error (1): Call to a member function login() on a non-object in [/var/www/usuarios/app/Controller/UsersController.php, line 111]
+2015-02-12 16:12:40 Error: [FatalErrorException] Call to a member function login() on a non-object
+Request URL: /usuarios/users/login
+Stack Trace:
+#0 /var/www/usuarios/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/usuari...', 111)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/usuari...', 111, Array)
+#2 /var/www/usuarios/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/usuari...', 111, Array)
+#3 /var/www/usuarios/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-12 16:18:41 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/usuarios/app/Controller/UsersController.php, line 10]
+2015-02-12 16:18:41 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /usuarios/users/login
+Stack Trace:
+#0 /var/www/usuarios/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/usuari...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/usuari...', 10, Array)
+#2 /var/www/usuarios/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/usuari...', 10, Array)
+#3 /var/www/usuarios/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-17 14:42:34 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /web-endomed/usuarios
+Stack Trace:
+#0 /var/www/web-endomed/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-17 14:42:39 Error: [MissingControllerException] Controller class UsuarioController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuarioController',
+  'plugin' => NULL,
+)
+Request URL: /web-endomed/usuario
+Stack Trace:
+#0 /var/www/web-endomed/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-17 14:42:42 Error: [MissingControllerException] Controller class UsuersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuersController',
+  'plugin' => NULL,
+)
+Request URL: /web-endomed/usuers
+Stack Trace:
+#0 /var/www/web-endomed/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

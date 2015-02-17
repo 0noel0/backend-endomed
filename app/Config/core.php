@@ -1,5 +1,11 @@
 <?php
 /**
+ *
+ */
+$salt = 'algunafrase';
+$cipherSeed = '0000';
+
+/**
  * This is core configuration file.
  *
  * Use it to configure core behavior of Cake.
@@ -222,12 +228,12 @@
 /**
  * A random string used in security hashing methods.
  */
-	Configure::write('Security.salt', 'DYhG93b0qyJfIxfs2guVoUubWwvniR2G0FgaC9mi');
+	Configure::write('Security.salt', 'DYhG93b0qyJfIxfs2guVoUubWwvniR2G0FgaC9mi'.$salt);
 
 /**
  * A random numeric string (digits only) used to encrypt/decrypt strings.
  */
-	Configure::write('Security.cipherSeed', '76859309657453542496749683645');
+	Configure::write('Security.cipherSeed', '76859309657453542496749683645'.$cipherSeed);
 
 /**
  * Apply timestamps with the last modified time to static assets (js, css, images).
