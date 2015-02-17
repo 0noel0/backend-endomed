@@ -54,3 +54,12 @@ Request URL: /web-endomed/usuers
 Stack Trace:
 #0 /var/www/web-endomed/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-02-17 14:53:12 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /web-endomed/login
+Stack Trace:
+#0 /var/www/web-endomed/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
